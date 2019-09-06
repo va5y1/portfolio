@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "browser-sync": "*",
+        "gulp": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-notify": "*",
+        "gulp-sass": "*",
+        "normalize.css": "^8.0.1"
+    }
+}

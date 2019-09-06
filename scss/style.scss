@@ -1,0 +1,54 @@
+@import "vars";
+@import "fonts";
+
+body {
+	font-size: 16px;
+	line-height: 1.65;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	height: 100vh;
+}
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	padding:26px 58px 26px 30px;
+	align-items: center;
+	&-logo {
+		img {width: 100%;}
+	}
+	&-nav nav{
+		flex-grow: 1;
+		ul {
+			display: flex;
+			li {
+				padding: 0;
+				margin: 5px;
+				list-style: none;
+				a {
+					text-decoration: none;
+					display: block;
+					padding: 12px 10px;
+					color: $text;
+					transition: all .5S;
+					&:hover {
+						color: #fff;
+						background-color: $green;
+					}
+				}				
+			}	
+
+		}
+
+	}
+}
+.header-main {
+	height: calc(100% - 144px);
+	background: #000 url(../img/bg.png) center no-repeat;
+	background-size: cover;
+}
+
+
+
+ /* in the end*/
+ @import "media";
